@@ -25,7 +25,7 @@
 
 .header__name {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin: 2% 0 2% 0;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .card__header:hover {
-  color: rgb(174, 94, 200);
+  color: rgb(207, 114, 164);
 }
 
 @media screen and (min-width: 820px) {
@@ -123,6 +123,7 @@
   width: 0%;
   height: 0%;
   visibility: hidden;
+  cursor: pointer;
 }
 
 .checkbox-card {
@@ -135,4 +136,8 @@
   width: 40%;
   height: 50%;
   opacity: 1;
+}
+
+.checkbox-card:checked + .card__main > .card__header {
+  color: rgb(207, 114, 164);
 }
