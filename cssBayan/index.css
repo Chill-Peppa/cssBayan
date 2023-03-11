@@ -117,8 +117,10 @@
 }
 
 .checkbox-card {
-  visibility: visible;
-  opacity: 1;
+  visibility: hidden;
+  opacity: 0;
+  width: 0%;
+  height: 0%;
 }
 
 .checkbox-card:checked ~ .card__main-pic {
