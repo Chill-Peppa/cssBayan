@@ -32,7 +32,7 @@
 .header {
   margin: 0 auto;
   text-align: center;
-  border-bottom: 0.3rem solid rgb(186, 174, 174);
+  border-bottom: 0.01rem solid rgb(186, 174, 174);
 }
 
 .header__name {
@@ -66,7 +66,7 @@
 }
 
 .card {
-  border-bottom: 0.3rem solid rgb(186, 174, 174);
+  border-bottom: 0.01rem solid rgb(186, 174, 174);
 }
 
 .card:hover + .card__main-pic {
